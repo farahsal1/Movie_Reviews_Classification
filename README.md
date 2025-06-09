@@ -17,5 +17,14 @@ The model uses a TF-IDF vectorizer to quantify the relative importance of each w
 
 I then created Feature vectors from the final clean version of this dataset. 
 
+For the final classification model, I applied and evaluated three models: 
+1. Multinomial Naive-Bayes
+2. Logistic Regression
+3. Neural Networks (Multilayer Perceptron Classifier)
+4. Random Forest
+5. K-Nearest Neighbors
+
+Each of the models selected have strengths that make them suitable for training feature vectors for text classification. For example, while naive bayes models are efficient and simple to implement on TF-IDF vectorization, they assume independence between the features, whereas the words in the corpus are likely not independent. Logistic regression was selected as it does not assume independence between different features.
+
 ## Exploratory Data Analysis
 
