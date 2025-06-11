@@ -5,7 +5,7 @@ In this project, I have performed sentiment analysis on a labelled IMBb movie re
 
 ## Data Source 
 
- For my model, I have used the IMDb Movie Review dataset, obtained from Kaggle. It was originally developed by Mass, Daly et al (2011) original paper: [Learning Word Vectors for Sentiment Analysis]('https://ai.stanford.edu/~amaas/data/sentiment/'). The dataset was created by scraping reviews data from IMDb website. It contains 50,000 reviews, with no more than 30 reviews per movie. The dataset has an even number of positive and negative reviews i.e. 25,000 each. Only highly polarized reviews were considered and neutral reviews are not part of this dataset. 
+ For my model, I have used the IMDb Movie Review dataset, obtained from Kaggle. It was originally developed by Mass, Daly et al (2011) original paper: [Learning Word Vectors for Sentiment Analysis]('https://ai.stanford.edu/~amaas/data/sentiment'). The dataset was created by scraping reviews data from IMDb website. It contains 50,000 reviews, with no more than 30 reviews per movie. The dataset has an even number of positive and negative reviews i.e. 25,000 each. Only highly polarized reviews were considered and neutral reviews are not part of this dataset. 
 
 
  ## Methodology
