@@ -27,3 +27,18 @@ For the final classification model, I applied and evaluated three models:
 Each of the models selected have strengths that make them suitable for training feature vectors for text classification. For example, while naive bayes models are efficient and simple to implement on TF-IDF vectorization, they assume independence between the features, whereas the words in the corpus are likely not independent. Logistic regression was selected as it does not assume independence between different features.
 
 
+## Conclusion
+
+ Based on the scores, the logistic regression model have the best performance on the test set, with neural network performing second best. Multi-nomial naive bayes also performs only marginally worse than the neural networks. The K-Nearest Neighbors was the lowest performing.
+
+| Model | Accuracy on Test Set |
+| --- | --- |
+| Multinomial Naive Bayes | 86.13% |
+| Logistic Regression | 89.29% |
+| Random Forest | 85.29% | 
+| Neural Network | 86.35% |
+| K Nearest Neighbor | 78.9% |
+
+Neural networks have the ability to capture hidden complex and intricate patterns and relationships between different features. However, since logistic regression performs better than the neural network, it may be that the relationships between features are relatively simpler to be captured by the simpler model that is logistic regression as opposed to the more complex neural network. Secondly, Naive Bayes may not have performed as well as logistic regression as it assumes independence between the features.
+
+In conclusion, logistic regression was selected due to its high performance on the test set.
