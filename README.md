@@ -26,6 +26,10 @@ For the final classification model, I applied and evaluated three models:
 
 Each of the models selected have strengths that make them suitable for training feature vectors for text classification. For example, while naive bayes models are efficient and simple to implement on TF-IDF vectorization, they assume independence between the features, whereas the words in the corpus are likely not independent. Logistic regression was selected as it does not assume independence between different features.
 
+<p align="center">
+  <img src="Images/ct_20_most_freq.png" alt="Chart" width="500"/>
+</p>
+
 
 ## Conclusion
 
